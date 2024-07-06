@@ -450,9 +450,9 @@ pre {
 .btn1:hover{
   color: red;
 }
-/* .pre-scrollable {
+.pre-scrollable {
   max-height: 340px;
-  overflow-y: scroll; } */
+  overflow-y: scroll; }
 
 .container {
   width: 100%;
