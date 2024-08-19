@@ -8989,7 +8989,7 @@ h1, h2, h3, h4, h5,
       .project .overlay {
         opacity: .2; } }
   .project .text {
-    max-width: 80%;
+    /* max-width: 80%; */
     z-index: 1;
     opacity: 0;
     -moz-transition: all 0.3s ease;
@@ -9494,7 +9494,7 @@ textarea.form-control {
   border: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 11px; }
   .tagcloud a:hover {
-    border: 1px solid #000; }
+    border: 1px solid var(--warning); }
 
 .comment-form-wrap {
   clear: both; }
@@ -9967,7 +9967,7 @@ textarea.form-control {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 20px 0;
+  padding: 14px 0;
   background: #050505;
 }
 
@@ -9992,7 +9992,7 @@ textarea.form-control {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #0e2442;
+  color: white;
   content: "/";
 }
 
